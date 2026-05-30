@@ -1,0 +1,150 @@
+body {
+    background: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+/* コンテナ */
+.list-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+
+/* タイトル */
+.list-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-left: 12px;
+    border-left: 4px solid #000;
+}
+
+/* 月ナビ */
+.month-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.month-nav a {
+    color: #777;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.current-month {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* テーブル外枠 */
+.table-wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+/* テーブル */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+/* ヘッダー */
+.attendance-table th {
+    background: #fff;
+    color: #888;
+    font-weight: 600;
+    padding: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* セル */
+.attendance-table td {
+    padding: 18px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+/* 行区切り */
+.attendance-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+/* 詳細 */
+.detail-cell {
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+}
+
+.detail-cell a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.month-nav,
+.table-wrapper {
+    padding: 20px;
+}
+
+.month-nav,
+.table-wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.month-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.month-input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icon-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.csv-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.csv-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    border: 1px solid #333;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.csv-btn:hover {
+    background: #e0e0e0;
+}

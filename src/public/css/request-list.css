@@ -1,0 +1,86 @@
+/* 背景 */
+body {
+    background: #f3f4f6;
+}
+
+/* コンテナ */
+.request-container {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+/* タイトル */
+.request-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    border-left: 5px solid #000;
+    padding-left: 12px;
+}
+
+/* タブ */
+.tabs {
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 0;
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+
+.tab.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+/* テーブル */
+.table-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.request-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.request-table th,
+.request-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.request-table th {
+    background: #f9fafb;
+    color: #666;
+    font-size: 14px;
+}
+
+.request-table td {
+    font-size: 14px;
+}
+
+/* 詳細リンク */
+.detail-link {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.detail-link:hover {
+    text-decoration: underline;
+}
+
+/* ログアウトボタン */
+.logout-form button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

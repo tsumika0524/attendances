@@ -1,0 +1,41 @@
+body {
+    background: #f1f1f1;
+}
+
+.verify-container {
+    max-width: 700px;
+    margin: 120px auto 0;
+    text-align: center;
+}
+
+.verify-message {
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.verify-btn {
+    display: inline-block;
+    padding: 14px 40px; /* 18px 55px → 少し縮小 */
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: #e0e0e0;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px; /* 28px → 現実的サイズへ */
+    font-weight: bold;
+}
+
+.verify-btn-area {
+    margin-bottom: 40px; /* 60px → 圧縮 */
+}
+
+.resend-link {
+    border: none;
+    background: transparent;
+    color: #0073ff;
+    font-size: 18px; /* 24px → 小さく */
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+body {
+    background: #eaeaea;
+}
+
+/* コンテナ */
+.staff-list-container {
+    width: 900px;
+    margin: 80px auto;
+}
+
+/* タイトル */
+.page-title {
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 18px;
+    border-left: 6px solid #000;
+    margin-bottom: 50px;
+}
+
+/* テーブル外枠 */
+.table-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* テーブル */
+.staff-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* ヘッダー */
+.staff-table thead {
+    background: #fff;
+}
+
+.staff-table th {
+    padding: 18px 10px;
+    font-size: 14px;
+    color: #737373;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* データ */
+.staff-table td {
+    padding: 18px 10px;
+    border-bottom: 1px solid #e0e0e0;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* 最終行 */
+.staff-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* 詳細リンク */
+.detail-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* hover */
+.detail-link:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,117 @@
+/* 全体 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ヘッダー固定高さ */
+.header {
+    background-color: #000;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1000;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between; /* 左右に分ける */
+    align-items: center;           /* 縦中央揃え */
+}
+
+/* コンテンツ共通幅制御 */
+.container {
+    width: 100%;
+    max-width: 1500px; /* PC上限（1400〜1540対応） */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 30px;
+}
+
+/* メイン背景 */
+/* デフォルト（全ページ） */
+main {
+    background-color: #f5f5f5;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+/* ログイン・登録だけ */
+body.auth-page main {
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logout-form {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* ナビリンク */
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container,
+.register-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+
+    .login-container,
+    .register-container {
+        width: 90%;
+        padding: 40px 30px;
+    }
+
+    .header-inner {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .nav {
+        gap: 15px;
+    }
+
+    .logo {
+        height: 26px;
+    }
+}
+
+.global-success {
+    width: 100%;
+    background: #d1fae5;
+    color: #065f46;
+    padding: 8px 24px;
+    font-weight: bold;
+    border-top: 1px solid #a7f3d0;
+    border-bottom: 1px solid #a7f3d0;
+    box-sizing: border-box;
+}

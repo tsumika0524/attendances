@@ -1,0 +1,63 @@
+/* リセット */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+
+/* フォーム枠 */
+.login-container {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+/* タイトル */
+.login-title {
+    margin-bottom: 30px;
+}
+
+/* フォーム */
+.form-group {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* ボタン */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #aaa;
+}
+
+/* エラー */
+.error {
+    background: #fff;
+    color: #d00;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
