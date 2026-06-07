@@ -43,7 +43,7 @@ class AdminAttendanceDetailTest extends TestCase
 
         $response->assertStatus(200);
 
-        $response->assertSee('山田 太郎');
+        $response->assertSee('山田太郎');
         $response->assertSee('2026年');
         $response->assertSee('5月13日');
         $response->assertSee('09:00');

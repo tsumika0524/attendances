@@ -18,7 +18,7 @@ class AttendanceDetailTest extends TestCase
     public function test_user_name_visible()
 {
     $user = User::factory()->create([
-        'name' => '山田 太郎',
+        'name' => '山田太郎',
     ]);
 
     $attendance = Attendance::create([
